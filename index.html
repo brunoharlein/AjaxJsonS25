@@ -17,8 +17,29 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
 
+<body>
+  <header class="jumbotron">
+    <h1 class="display-4">Ajax salle de bain</h1>
+    <p class="lead">Utilitaire pour JS</p>
+    <hr class="my-4">
+  </header>
+
+  <main>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">id</th>
+          <th scope="col">Name</th>
+          <th scope="col">FirstName</th>
+          <th scope="col">age</th>
+          <th scope="col">Ville</th>
+        </tr>
+      </thead>
+      <tbody id="tBody">
+      </tbody>
+    </table>
+  </main>
 
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
@@ -28,12 +49,18 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
+
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    window.ga = function() {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <!-- <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
 </body>
 
 </html>
