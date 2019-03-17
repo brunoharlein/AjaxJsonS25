@@ -14,6 +14,13 @@
       "firstName": "Sandrine",
       "age": 38,
       "ville": "Croix"
+    },
+    {
+      "id": 7,
+      "name": "Harlein",
+      "firstName": "Luka",
+      "age": 12,
+      "ville": "Wasquehal"
     }
   ]
 }
